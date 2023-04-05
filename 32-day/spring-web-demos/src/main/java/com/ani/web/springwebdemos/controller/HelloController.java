@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController { // http://localhost:8080/demo
     
     @GetMapping("/hlo") 
-    public String sayHello(Model model) { // http://localhost:8080/demo/hlo
+    public String sayHello(Model model) { // 
 
         model.addAttribute("name", "abc");
         return "hello";
